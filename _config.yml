@@ -5,7 +5,7 @@ permalink:           pretty
 title:               Z.W. Miller
 tagline:             A Moderately Okay Data Science Blog
 url:                 http://zwmiller.github.io
-paginate:            2
+paginate:            5
 baseurl:             ""
 
 # Assets
