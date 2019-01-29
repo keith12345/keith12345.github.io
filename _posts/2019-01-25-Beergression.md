@@ -91,6 +91,8 @@ While I had little hope that the original brewery features would yield positive 
 * Number of Brewery Reviews
 * Mean Beer Score
 * Total Beer Ratings  
+
+
 The model produced an adjusted r-squared on the test data of 0.0919.  
 
 
@@ -104,6 +106,8 @@ I then removed some of the poorly correlating features from the breweries datase
 * Max_Beer_Score
 * Max_Mean_Beer_Score
 * Mean_Beer_Score  
+
+
 This brought the adjusted r-squared on the test data to 0.1456.
 
 
