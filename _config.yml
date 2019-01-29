@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Z.W. Miller
-tagline:             A Moderately Okay Data Science Blog
-url:                 http://zwmiller.github.io
+title:               Keith Kirkpatrick
+tagline:             A Personal Data Science Blog
+url:                 http://keith12345.github.io
 paginate:            1
 baseurl:             ""
 
@@ -17,14 +17,14 @@ sass:
 
 # About/contact
 author:
-  name:              Zach Miller
-  url:               https://twitter.com/zaglamir
-  email:             zach@thisismetis.com
+  name:              Keith Kirkpatrick
+  url:               https://www.linkedin.com/in/keith-kirkpatrick/
+  email:             keithmkirkpatrick@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/zwmiller
+  repo:              https://github.com/keith12345
 
 # Gems
 gems:
