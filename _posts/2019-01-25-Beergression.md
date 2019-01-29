@@ -8,7 +8,7 @@ title: Predicting Brewery Scores on BeerAdvocate.com
   Given information from various web sources, is it possible to accurately predict a Brewery's score on <a href="https://www.beeradvocate.com/">BeerAdvocate.com</a>. If so, which features are the most important in predicting such. The results of the models were scored based on their adjusted r-squared.
 </div>
 
-# Problem Statement
+## Problem Statement
 I approached this project from the perspective of having been contracted by a local brewery seeking to increase their score on BeerAdvocate.com. Social media is a concern for many small business owners so it is fair to assume that a regional or up-and-coming brewery would be concerned with their score on such a platform. The ultimate takeaway for breweries will be informing them about which factors to consider that will allow them to optimize their score effectively.
 
 
@@ -90,7 +90,7 @@ While I had little hope that the original brewery features would yield positive 
 * Number of Brewery Ratings
 * Number of Brewery Reviews
 * Mean Beer Score
-* Total Beer Ratings 
+* Total Beer Ratings  
 The model produced an adjusted r-squared on the test data of 0.0919.  
 
 
@@ -103,7 +103,7 @@ I then removed some of the poorly correlating features from the breweries datase
 * Num_Beers
 * Max_Beer_Score
 * Max_Mean_Beer_Score
-* Mean_Beer_Score
+* Mean_Beer_Score  
 This brought the adjusted r-squared on the test data to 0.1456.
 
 
