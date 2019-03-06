@@ -4,27 +4,25 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Hey there! Welcome to my blog! I use this as a place to share some of the interesting insights that I found during recent projects and share other tidbits that I feel may be useful to fellow data scientists. Please peruse and enjoy!
 </p>
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+### How I got here  
+I moved out to San Francisco in 2017 to work at a FinTech startup. I've had a few different roles over the past several years and always enjoyed the work that I was doing but realized that there were hard limits to what I could offer in most of the operations roles I'd found myself in. It was only after moving to San Francisco and seeing so many diverse backgrounds that I started to believe I could fill more technical roles like that of a data scientist.  
 
-There are currently two themes built on Poole:
+Before joining the business world, I majored in Classical French Horn Performance at the Manhattan School of Music in NYC where I studied with members of the New York Philharmonic and Metropolitan Opera.  
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+### Random
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+On weekends you can find me playing 2v2 volleyball... Feel free to say hi if you see me!
 
-## Setup
+Some other fun facts:
 
-Some fun facts about the setup of this project include:
+* Always down to watch a good B-grade Sci-Fi show (I wish they never canceled [Dark Matter](https://en.wikipedia.org/wiki/Dark_Matter_(TV_series))!)
+* Still occasionally play orchestra concerts, most recently with Mozart to Mendelssohn, part of [SF Civic Music](https://www.sfcivicmusic.org/)
+* Recently started snowboarding and am thinking of starting surfing (I know, I'm really embracing the California lifestyle).
+* I love when someone proves me wrong about something! 
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+Have questions or suggestions about how I can improve my blog? Feel free to [add or message me on LinkedIn](https://www.linkedin.com/in/keith-kirkpatrick/)!
 
 Thanks for reading!
