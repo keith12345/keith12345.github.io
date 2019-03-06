@@ -72,7 +72,7 @@ The majority of the information available on each breweries page provided little
 
 
 ## Taking a look at how our variables correlate:
-While the entirety of engineered features is too many to show; see below some of the more significantly correlating features derived from style categories. Our target, `Brewery_Score`, is in the first column. Notice that few features correlate significantly to our target. Also, note the multicollinearity throughout the dataset which resulted in issues during the modeling process. 
+While the entirety of engineered features is too many to show; see below some of the more significantly correlating features derived from style categories. Our target, `Brewery_Score`, is in the first column. Notice that few features correlate significantly to our target. Also, note that there is some multicollinearity throughout the dataset which resulted in issues during the modeling process. 
 
 
 ![Style-Category_Correlations](/images/Reduced_Correlation_Heatmap.png "Heatmap of style category correlations to Brewery score, our target variable.")
@@ -129,7 +129,7 @@ Any OLS regression model should use only a small number of features. However, du
 * **Wild_Sour** - Maximum wild/sour score multiplied by the mean wild/sour score.
 
 
-Note that I used both Ridge and LASSO even though little to no overfitting was visible (i.e., the comparison of results on test and training data). Unsurprisingly, there was little difference between Vanilla OLS and the regularized models use Ridge and LASSO.
+Note that I used both Ridge and LASSO even though little to no overfitting was visible (i.e., there was little difference between the r-squared and RMSE for on the vanilla OLS model). Unsurprisingly, there was little difference between Vanilla OLS and the regularized models use Ridge and LASSO.
 
 
 | **Model / Metric**                  | **R2**    | **Adjusted R2** | **RMSE** |
@@ -160,3 +160,6 @@ Note that I used both Ridge and LASSO even though little to no overfitting was v
     * LASSO
     * GridSearchCV
     * KFold Cross Validation
+
+## GitHub Repo:
+[Beergression](https://github.com/keith12345/beergression)
