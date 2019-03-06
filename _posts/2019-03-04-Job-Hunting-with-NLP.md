@@ -48,10 +48,16 @@ While some people may want to search for a job based on its perks, that was not 
 
 ### Which text to use
 Upon inspection of some of the job descriptions, I noticed that the paragraph sections within each job description didn't always contain information specific to the role; it was typically general information about the company:  
+
+
 ![Job_Description_Paragraph](/images/example_paragraph_item.png "An example paragraph item taken from a job description showing that the description is more about the company, its culture, and its product, rather than about the position in question.")  
 
+
 As a result, I decided to use only the listed items for each job description which you can see are more tailored to the specific role than to the company:  
+
+
 ![Job_Description_listed_items](/images/example_listed_items.png "An example group of listed items taken from a job description showing that the listed items are more about tailored to the role than the company.")  
+
 
 Note that the perks mentioned above were also typically included as listed items and were thus not excluded by not using paragraph sections.
 
@@ -78,11 +84,13 @@ Once deciding on TF-IDF as my word embedder I plotted the inertia resulting from
 
 Before deciding to use 9 topics while topic modeling I had plotted the inertia resulting from using KMeans clustering to get an idea of how many topics there might be in my dataset. See below:
 
+
 ![KMeans_inertia](/images/KMeans_inertia.png "A line plot of the inertia resulting from various numbers of means in KMeans clustering highlighting elbows and the actual number of topics used.")
+
 
 I noted elbows at 11, 15, 18, 21, and 23 means (in green) and performed topic modeling for each of those numbers of means. Interestingly, the ideal number of topics was not the same as the ideal number of means; redundancies occurred with larger numbers of topics. This is likely a result of the initial problem we students at Metis have been discussing all along; the fact that not all data-related roles fit nicely into a single silo!
 
-*Explaining these models is not the purpose of this post. For further information wikipedia has great articles on the following subjects: [TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf), [CountVectorizer](https://en.wikipedia.org/wiki/Bag-of-words_model), [Word2vec](https://en.wikipedia.org/wiki/Word2vec), [GloVe](https://en.wikipedia.org/wiki/GloVe_(machine_learning)), [NMF](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization), [KMeans](https://en.wikipedia.org/wiki/K-means_clustering), [PCA](https://en.wikipedia.org/wiki/Principal_component_analysis).
+*Explaining the above mentioned models and terms is not the purpose of this post. For further information wikipedia has great articles on the following subjects: [TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf), [CountVectorizer](https://en.wikipedia.org/wiki/Bag-of-words_model), [Word2vec](https://en.wikipedia.org/wiki/Word2vec), [GloVe](https://en.wikipedia.org/wiki/GloVe_(machine_learning)), [NMF](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization), [KMeans](https://en.wikipedia.org/wiki/K-means_clustering), [PCA](https://en.wikipedia.org/wiki/Principal_component_analysis).
 
 ## Visualizing our results
 Below you can see an interactive plot using plotly reduced to 3 dimensions using PCA. For each plot you can see the following information:  
