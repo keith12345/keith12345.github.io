@@ -121,7 +121,7 @@ Below you can see an interactive plot using plotly reduced to 3 dimensions using
 
 Note that at the outer limits of the plot the roles are more defined while toward the middle of the plot there is some overlap in the roles. This could result from inaccuracy in the model, but it is also possible that an employer gave a particular title to a role that is not most applicable when compared to other positions.
 
-## How can we use our results
+## Using our results
 
 While these insights are interesting, they're not useful on their own. However, back to the issue we described earlier, what if there was a way to use our new insights to search for a job in a way other than merely by employer, title, or keyword?  
 
