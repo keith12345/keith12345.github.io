@@ -20,7 +20,7 @@ Some other fun facts:
 
 * Always down to watch a good B-grade Sci-Fi show (I wish they never canceled [Dark Matter](https://en.wikipedia.org/wiki/Dark_Matter_(TV_series))!)
 * Still occasionally play orchestra concerts, most recently with Mozart to Mendelssohn, part of [SF Civic Music](https://www.sfcivicmusic.org/)
-* Recently started snowboarding and am thinking of starting surfing (I know, I'm really embracing the California lifestyle).
+* Recently started snowboarding and am thinking of starting surfing (I know, I'm really embracing the California lifestyle)
 * I love when someone proves me wrong about something! 
 
 Have questions or suggestions about how I can improve my blog? Feel free to [add or message me on LinkedIn](https://www.linkedin.com/in/keith-kirkpatrick/)!
