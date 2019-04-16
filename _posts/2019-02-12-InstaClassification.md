@@ -18,6 +18,8 @@ Instacart recently challenged the Kaggle community to predict orders over time b
 
 </div>
 
+![carrot](/images/carrot.png "carrot.")
+
 ## Problem Statement:
 Given a user's order history on the Instacart platform, can we accurately predict which items that user will reorder during their next session?  
 
@@ -38,23 +40,26 @@ Instacart provided a bunch of tables but I only really need to work with these t
 #### A quick look at the tables:
 ![order_products](/images/order_products.png "order_products.")
 <br>
-<br>
 ![orders](/images/orders.png "orders.")
+<br>
 
 ## Feature engineering:
 
 #### What sorts of features are we going to make?
 Do we want to make features for users?
-<br>
+<br><br>
 ![male_shopper](/images/male_shopper.png "male_shopper.")
+<br>
 
 How about for specific products?
-<br>
+<br><br>
 ![shopping_cart](/images/shopping_cart.png "shopping_cart.")
+<br>
 
 Or maybe we want to make user-product features... Features that are specific to both a user and a product... 
-<br>
+<br><br>
 ![male_shopper_with_cart](/images/male_shopper_with_cart.png "male_shopper_with_cart.")
+<br>
 
 How about all three?
 
@@ -72,8 +77,9 @@ While that is a great feature, we're only looking at things in terms of individu
 Additionally, if we always run over to produce and buy apples, oranges, and bananas (i.e. low/early add_to_cart_order), it's probably a pretty high priority item. 
 
 Below you can see a pairplot with those features. Things to look for? Separation in our distributions (down the diagonal) and higher absolute values of our coefficients.
-<br>
+<br><br>
 ![early_feature_engineering](/images/early_feature_engineering.png "early_feature_engineering.")
+<br>
 
 Some were a little less intuitive. Instacart provided the departments for each product. You might think that taking the average reorder rate for products by department would add signal but it actually just added noise and didn't improve the model. 
 
@@ -82,7 +88,7 @@ Ranking reorder rate and creating ordinals added slightly more signal but the mo
 ## Modeling:
 
 #### How do we evaulate our models?
-The decision was made for me: f1-score. An f1-score is the harmonic average of the precision and recall, where an F1 score reaches its best value at 1 (perfect precision and recall) and worst at 0.
+The decision was made for me: f1-score. An f1-score is the harmonic average of the precision and recall, where an F1 score reaches its best value at `1` (perfect precision and recall) and worst at `0`.
 
 However, we don't need to blindly listen to what the Kaggle website tells us to do; we can think through this ourselves and understand why this makes sense as an evaluation metric.
 
@@ -106,8 +112,9 @@ Now I have all of these extras models... Gaussian Naive Bayes was far better tha
 Yes, with an ensemble!
 
 I simply took the predictions of 9 different models that I created, and if more than half voted for an option, I went with that option!
-<br>
+<br><br>
 ![voting_ensemble](/images/voting_ensemble.png "voting_ensemble.")
+<br>
 
 ## Some interesting challenges:
 * KFold cross-validation: As we're trying to predict future behavior on the user level we need to be careful when it comes to how we split out data. We can't use a simple random split as this will result in previous orders from validation users making their way into the training set. To solve this, I had to be careful to make sure I split on `user_id`:
