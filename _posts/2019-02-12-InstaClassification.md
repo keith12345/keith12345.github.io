@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Predicting Brewery Scores on BeerAdvocate.com
+title: Instacart Market Basket Analysis
 ---
-
-
-<div class="message">
 
 <p>
 Challenge description stolen shamelessly from Kaggle:  
 </p>
+
+<div class="message">
+
 <p>
 Whether you shop from meticulously planned grocery lists or let whimsy guide your grazing, our unique food rituals define who we are. Instacart, a grocery ordering and delivery app, aims to make it easy to fill your refrigerator and pantry with your personal favorites and staples when you need them. After selecting products through the Instacart app, personal shoppers review your order and do the in-store shopping and delivery for you.  
 </p>
 <p>
 Instacart recently challenged the Kaggle community to predict orders over time based on previous shopping behaviour using the <i>“The Instacart Online Grocery Shopping Dataset 2017”, Accessed from https://www.instacart.com/datasets/grocery-shopping-2017 on 01/29=2019</i> and included on <a href="https://www.kaggle.com/">Kaggle</a> in the <a href="https://www.kaggle.com/c/instacart-market-basket-analysis">Instacart Market Basket Analysis</a> challenge.  
-<p/>
+</p>
 
 </div>
 
