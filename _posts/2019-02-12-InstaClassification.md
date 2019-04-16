@@ -18,7 +18,7 @@ Instacart recently challenged the Kaggle community to predict orders over time b
 
 </div>
 
-![carrot](/images/carrot.png | width=400 "carrot.")
+<div> <img src="/images/carrot.png" alt="carrot" style="height:100px;"> </div>
 
 ## Problem Statement:
 Given a user's order history on the Instacart platform, can we accurately predict which items that user will reorder during their next session?  
